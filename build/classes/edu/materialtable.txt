@@ -1,0 +1,10 @@
+Executed SQL Statement : Create table `test`.`materialtable`(  
+  `s.no` int(10) NOT NULL,
+  `book name` varchar(20) NOT NULL,
+  `price` double(10),
+  primary key (`s.no`)
+) ENGINE=InnoDB charset=latin1 collate=latin1_swedish_ci 
+Error Number : 1064 
+Error Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),
+  primary key (`s.no`)
+) ENGINE=InnoDB charset=latin1 collate=latin1_swedis' at line 4 
